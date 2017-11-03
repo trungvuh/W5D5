@@ -1,0 +1,32 @@
+/* PHASE 5: Cats */
+.content-header {
+  height: 200px;
+  width: inherit;
+  background-image: url(../adorable-cat.jpg);
+  position: relative;
+  background-size: 100% 100%;
+  /*background-repeat: no-repeat;*/
+}
+
+.content-header h1 {
+  position: absolute;
+  left: 240px;
+  bottom: 20px;
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 300;
+  color: white;
+  text-shadow: black 0 0 10px;
+}
+
+button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: black;
+  background: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
